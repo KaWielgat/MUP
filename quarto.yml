@@ -1,3 +1,4 @@
+./github/workflows/quatro.yml
 name: foo
 on: push
 jobs:
