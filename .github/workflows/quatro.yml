@@ -9,7 +9,7 @@ jobs:
         with:
           tinytex: true
 
-      - run: pip install --break-system-packages ipykernel mbclient matplotlib PyMPDATA
+      - run: pip install --break-system-packages ipykernel nbformat nbclient mbclient matplotlib PyMPDATA
       - run: quarto render Untitled4.ipynb --to pdf --execute
       - uses: actions/upload-artifact@v7
         with:
